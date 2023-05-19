@@ -18,7 +18,7 @@ import ly.img.android.pesdk.ui.activity.VideoEditorBuilder
 import ly.img.android.pesdk.ui.model.state.*
 import ly.img.android.pesdk.ui.panels.item.PersonalStickerAddItem
 
-class FilterMainActivity : AppCompatActivity() {
+open class FilterMainActivity : AppCompatActivity() {
 
     companion object {
         const val VESDK_RESULT = 1
